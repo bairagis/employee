@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 class EmployeeController {
     @GetMapping("/names")
     fun getEmployeeNames():String {
-        var employeeList:List<String> = listOf("Sudip","Amit","somebody")
+        var employeeList:List<String> = listOf("Sudip","Amit","somebody","morepeople")
         return employeeList.toString()
     }
 }
